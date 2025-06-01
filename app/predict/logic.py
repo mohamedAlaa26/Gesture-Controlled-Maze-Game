@@ -5,10 +5,10 @@ from app.schemas.input import LandmarkInput
 model = load_model()
 
 label_map = {
-    0: "up",
-    1: "down",
-    2: "left",
-    3: "right"
+    0: "like",      # Thumbs up gesture
+    1: "dislike",   # Thumbs down gesture  
+    2: "peace",        # OK gesture (thumb and index finger circle)
+    3: "ok"      # Peace sign (V with index and middle finger)
 }
 
 def preprocess(landmarks: list) -> np.ndarray:
