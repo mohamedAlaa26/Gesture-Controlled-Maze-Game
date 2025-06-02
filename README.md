@@ -113,7 +113,7 @@ docker push <your-dockerhub-username>/gesture-backend
 
 ---
 
-## 🚀 Project Requirements Fulfilled
+## 🚀 Requirements Fulfilled
 
 | Requirement                   | Status     |
 | ----------------------------- | ---------- |
